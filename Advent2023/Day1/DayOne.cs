@@ -12,7 +12,7 @@ namespace AdventOfCode.Advent2023.Day1
     {
         public DayOne() { }
 
-        public static async Task RunDayOnePartOne()
+        public static async Task DayOnePartOne(string cookie)
         {
             var baseAddress = new Uri("https://adventofcode.com/2023/day/1/input");
             var cookieContainer = new CookieContainer();
@@ -61,7 +61,7 @@ namespace AdventOfCode.Advent2023.Day1
 
         }
 
-        public static async Task RunDayOnePartTwo()
+        public static async Task DayOnePartTwo()
         {
             var baseAddress = new Uri("https://adventofcode.com/2023/day/1/input");
             var cookieContainer = new CookieContainer();

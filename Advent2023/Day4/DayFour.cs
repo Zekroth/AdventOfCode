@@ -12,7 +12,7 @@ namespace AdventOfCode.Advent2023.Day4
     {
         public DayFour() { }
 
-        public static async Task RunDayFourPartOne(string cookie)
+        public static async Task DayFourPartOne(string cookie)
         {
             var input = AdventOfCode.Utils.DataImporter.GetData(2023, 4, cookie);
 

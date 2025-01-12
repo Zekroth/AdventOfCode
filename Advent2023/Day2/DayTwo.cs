@@ -9,7 +9,7 @@ namespace AdventOfCode.Advent2023.Day2
 {
     public class DayTwo
     {
-        public static async Task RunDayTwoPartOne()
+        public static async Task DayTwoPartOne()
         {
             var baseAddress = new Uri("https://adventofcode.com/2023/day/2/input");
             var cookieContainer = new CookieContainer();
